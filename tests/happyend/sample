@@ -1,0 +1,45 @@
+import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  await page.goto('https://qa-buy.transfi.com/');
+
+  await page.getByRole('navigation').locator('path').click();
+
+  await page.getByRole('button', { name: 'Sign In' }).click();
+
+  const page1Promise = page.waitForEvent('popup');
+  await page.getByRole('button', { name: 'Use Google' }).click();
+  const page1 = await page1Promise;
+  await page1.getByRole('textbox', { name: 'Email or phone' }).click();
+  await page1.getByRole('textbox', { name: 'Email or phone' }).fill('baiondatacontrol@gmail.com');
+  await page1.getByRole('button', { name: 'Next' }).click();
+  await page1.getByRole('textbox', { name: 'Enter your password' }).click();
+  await page1.getByRole('textbox', { name: 'Enter your password' }).fill('Baiondata@solution');
+  await page1.getByRole('button', { name: 'Next' }).click();
+  await page.waitForTimeout(10000);
+  await page.getByRole('navigation').getByRole('img').click();
+  await page.getByRole('listitem').filter({ hasText: 'Sign Outbaiondatacontrol@' }).click();
+  await page.getByRole('button', { name: 'Logout' }).click();
+  await page.waitForTimeout(3000);
+  await page.getByRole('navigation').getByRole('img').click();
+  await page.getByRole('button', { name: 'Sign In' }).click();
+  const contextPagePromise = page.waitForEvent('popup');
+  await page.getByRole('button', { name: 'Use Google' }).click();
+  const contextPage = await contextPagePromise;
+  await contextPage.waitForTimeout(3000);
+  await contextPage.getByRole('link', { name: 'Use another account' }).click();
+  
+  await contextPage.getByRole('textbox', { name: 'Email or phone' }).click();
+  await contextPage.getByRole('textbox', { name: 'Email or phone' }).fill('baiondatacontrol@gmail.com');
+  await contextPage.getByRole('button', { name: 'Next' }).click();
+
+  await contextPage.getByRole('textbox', { name: 'Enter your password' }).click();
+  await contextPage.getByRole('textbox', { name: 'Enter your password' }).fill('Baiondata@solutionas');
+  await contextPage.getByRole('button', { name: 'Next' }).click();
+  
+  const errorLocator = contextPage.locator('text=/Wrong password/i');
+  await errorLocator.waitFor({ timeout: 10000 }).catch(() => {});
+  const errorVisible = await errorLocator.isVisible();
+
+  expect(errorVisible).toBe(true);
+});
