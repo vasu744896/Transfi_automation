@@ -14,6 +14,8 @@ test('test', async ({ page }) => {
 
   await page1.getByRole('textbox', { name: 'Email or phone' }).fill('baiondatacontrol@gmail.com');
 
+  await page1.waitForTimeout(3000);
+
   await page1.getByRole('button', { name: 'Next' }).click();
 
   await page1.getByRole('textbox', { name: 'Enter your password' }).click();
@@ -25,6 +27,8 @@ test('test', async ({ page }) => {
   await page.waitForTimeout(10000);
 
   await page.getByRole('navigation').getByRole('img').click();
+
+  await page.waitForTimeout(3000);
 
   await page.getByText('Hi Baiondata').click();
   
