@@ -10,5 +10,4 @@ export default defineConfig({
     trace: 'on',
   },
   reporter: [['html', { outputFolder: 'playwright-report' }]],
-  globalTeardown: './global-teardown.ts', // 👈 Add this line
 });
