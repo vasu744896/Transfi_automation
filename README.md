@@ -17,7 +17,7 @@ npx playwright install
 ## ▶️ Step 2 – Run Your Test File
 
 ```bash
-npx playwright test ./foldername/filename.spec.ts --headed
+npx playwright test ./tests/foldername/filename.spec.ts --headed
 ```
 
 > Replace `foldername/filename.spec.ts` with the actual path of your test file.
