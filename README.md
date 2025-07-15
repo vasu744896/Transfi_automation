@@ -1,6 +1,6 @@
-# 🎭 Playwright + TypeScript Setup
+# 🎭 Playwright  Setup
 
-End-to-end testing setup using Playwright and TypeScript.
+End-to-end testing setup using Playwright.
 
 ---
 
@@ -35,7 +35,7 @@ npx playwright show-report
 ## ⚙️ (Optional) Initialize Default Config
 
 ```bash
-npx playwright test ./tests/foldername/filename --headed
+npx playwright test --init
 ```
 
 Creates:
