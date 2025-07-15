@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-
+// had some bug in this code
 test('test', async ({ page }) => {
   await page.goto('https://qa-buy.transfi.com/buy/sign-in');
 

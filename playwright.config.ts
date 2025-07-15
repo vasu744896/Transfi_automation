@@ -10,4 +10,5 @@ export default defineConfig({
     trace: 'on',
   },
   reporter: [['html', { outputFolder: 'playwright-report' }]],
+  globalTeardown: require.resolve('./global-teardown'), // 👈 Teardown for converting video
 });
