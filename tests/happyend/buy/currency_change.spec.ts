@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
+
     await page.goto('https://qa-buy.transfi.com/?apiKey=2ybWAQ398nDwXPla');
 
     await page.locator('div').filter({ hasText: /^EUR$/ }).nth(2).click();
@@ -22,4 +23,5 @@ test('test', async ({ page }) => {
     await page.waitForTimeout(5000);
 
     await page.getByRole('button', { name: 'Buy BTC' }).click();
+    
 });

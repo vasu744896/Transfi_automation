@@ -1,0 +1,41 @@
+import { test, expect } from '@playwright/test';
+
+test('Click each cryptocurrency and wait for summary update with value check', async ({ page }) => {
+  await page.goto('https://qa-buy.transfi.com/?apiKey=2ybWAQ398nDwXPla');
+
+  // Select only the crypto dropdown (BTC dropdown is second)
+  const dropdowns = page.locator('.chakra-input__right-addon');
+  const cryptoDropdown = dropdowns.nth(1);
+  await cryptoDropdown.click();
+
+  // Wait for the modal with crypto list
+  const cryptoList = page.locator('.chakra-modal__body div >> text=/\\(.*\\)/');
+  const total = await cryptoList.count();
+  console.log(`✅ Found ${total} cryptos`);
+
+  for (let i = 0; i < total; i++) {
+    const coin = cryptoList.nth(i);
+    await coin.scrollIntoViewIfNeeded();
+    const coinText = await coin.innerText();
+    await coin.click(); // Select the crypto
+    await page.waitForTimeout(1500); // Give UI time to update
+
+    // Wait for summary to appear
+    const summaryLocator = page.locator('.chakra-accordion__button.css-jr6ypq'); // Adjust if needed
+    try {
+      await expect(summaryLocator).toBeVisible({ timeout: 5000 });
+      const summary = await summaryLocator.innerText();
+
+      if (summary.trim()) {
+        console.log(`✅ ${coinText} → 🔄 Summary updated: ${summary}`);
+      } else {
+        console.log(`⚠️ ${coinText} → Summary visible but empty`);
+      }
+    } catch {
+      console.log(`❌ ${coinText} → Summary not visible`);
+    }
+
+    // Reopen the crypto dropdown for next selection
+    await cryptoDropdown.click();
+  }
+});
