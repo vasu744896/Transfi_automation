@@ -9,7 +9,6 @@ const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 export default defineConfig({
   testDir: './tests',
   retries: 0,
-  timeout: 120000, // Per-test timeout
   globalTimeout: 10 * 60 * 1000, // Entire test suite timeout
   use: {
     headless: false,

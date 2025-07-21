@@ -1,61 +1,80 @@
 import { test, expect } from '@playwright/test';
+import * as XLSX from 'xlsx';
 
-test('Loop through all currencies for BTC and get summary estimate', async ({ page }) => {
+test('Fetch valid crypto estimates only if value appears', async ({ page }) => {
+  test.setTimeout(0); // ✅ Disable timeout for this test
+
   await page.goto('https://qa-buy.transfi.com/?apiKey=2ybWAQ398nDwXPla');
-  await page.waitForTimeout(1500);
+  await page.waitForTimeout(2000);
   console.log('✅ Page loaded');
 
-  // Select "Sell Crypto" tab
+  // Step 1: Click "Sell Crypto"
   await page.getByRole('tab', { name: /sell crypto/i }).click();
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(2000);
+  console.log('✅ Sell Crypto tab selected');
 
-  const dropdowns = page.locator('.chakra-input__right-addon');
-
-  // ✅ Select crypto (BTC) from first dropdown [index 0]
-  const cryptoDropdown = dropdowns.nth(0);
+  // Step 2: Get dropdown and all coin list
+  const cryptoDropdown = page.locator('.chakra-input__right-addon').nth(0);
   await cryptoDropdown.click();
-  await page.waitForSelector('.chakra-modal__body');
-  await page.getByRole('heading', { name: 'BTC' }).click();
-  await page.waitForSelector('.chakra-modal__body', { state: 'detached' });
-  await page.waitForTimeout(1000);
-  console.log('✅ BTC selected');
 
-  // 🔁 Loop through all output currencies in second dropdown [index 1]
-  const currencyDropdown = dropdowns.nth(0);
-  await currencyDropdown.click();
-  await page.waitForSelector('.chakra-modal__body');
-  await page.waitForTimeout(1000);
+  const cryptoList = page.locator('.chakra-modal__body div >> text=/\\(.*\\)/');
+  const total = await cryptoList.count();
+  console.log(`🔢 Total cryptos: ${total}`);
 
-  // ✅ Currency options are buttons with headings (h2)
-  const currencyOptions = page.locator('.chakra-modal__body [role="button"]:has(h2)');
-  const total = await currencyOptions.count();
-  console.log(`🔢 Total currencies found: ${total}`);
-
-  if (total === 0) {
-    console.log('❌ No currencies found');
-    return;
-  }
+  const results: { Coin: string; EstimateStatus: string; EstimateValue: string }[] = [];
 
   for (let i = 0; i < total; i++) {
-    const option = currencyOptions.nth(i);
-    const currencyName = (await option.locator('h2').textContent())?.trim() ?? `Currency ${i + 1}`;
+    const coin = cryptoList.nth(i);
+    const coinText = await coin.innerText();
 
-    await option.scrollIntoViewIfNeeded();
-    await option.click({ force: true });
+    try {
+      await coin.click();
+      await page.waitForTimeout(3000); // Wait for estimate to appear
 
-    await page.waitForSelector('.chakra-modal__body', { state: 'detached' });
-    await page.waitForTimeout(1500); // wait for summary to load
+      const estimateBox = page.locator('div.css-19vmn3i');
+      const isVisible = await estimateBox.isVisible();
 
-    const summaryText = await page.locator('text=You get ~').first().textContent();
-    console.log(`✅ Estimate for ${currencyName}: ${summaryText?.trim()}`);
+      if (isVisible) {
+        const value = (await estimateBox.textContent())?.trim() || '';
 
-    // Re-open the currency dropdown for next item
-    if (i < total - 1) {
-      await currencyDropdown.click();
-      await page.waitForSelector('.chakra-modal__body');
+        if (value && value !== 'You Get (Estimate)') {
+          console.log(`✅ - ( ${coinText} ) → Estimate: ${value}`);
+          results.push({ Coin: coinText, EstimateStatus: 'Success', EstimateValue: value });
+        } else {
+          console.log(`❌ - ( ${coinText} ) → Empty estimate`);
+          results.push({ Coin: coinText, EstimateStatus: 'Empty', EstimateValue: '' });
+        }
+      } else {
+        console.log(`❌ - ( ${coinText} ) → Estimate not visible`);
+        results.push({ Coin: coinText, EstimateStatus: 'NotVisible', EstimateValue: '' });
+      }
+    } catch (err) {
+      console.log(`❌ - ( ${coinText} ) → Error fetching estimate`);
+      results.push({ Coin: coinText, EstimateStatus: 'Error', EstimateValue: '' });
+
+      // Try to recover dropdown
+      try {
+        console.log('⚠️ Failed to reopen dropdown, reloading page...');
+        await page.reload();
+        await page.waitForTimeout(2000);
+        await page.getByRole('tab', { name: /sell crypto/i }).click();
+        await page.waitForTimeout(2000);
+        await cryptoDropdown.click();
+      } catch {
+        console.log('❌ Reload failed: page.goto or browser was closed');
+        break;
+      }
+    }
+
+    if (i !== total - 1) {
       await page.waitForTimeout(1000);
+      await cryptoDropdown.click();
     }
   }
 
-  console.log('🎉 All currencies looped');
+  const worksheet = XLSX.utils.json_to_sheet(results);
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, worksheet, 'Estimates');
+  XLSX.writeFile(workbook, 'final_crypto_estimates.xlsx');
+  console.log('📁 Results saved to final_crypto_estimates.xlsx');
 });

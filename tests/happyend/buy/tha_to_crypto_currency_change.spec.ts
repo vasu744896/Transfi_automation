@@ -1,91 +1,107 @@
-// tests/crypto-summary.spec.ts
 import { test, expect } from '@playwright/test';
 import * as XLSX from 'xlsx';
 import fs from 'fs';
 
-test('Click each cryptocurrency and save summary to Excel', async ({ page }) => {
-  await page.goto('https://qa-buy.transfi.com/?apiKey=2ybWAQ398nDwXPla');
+test.setTimeout(24 * 60 * 60 * 1000); // 24 hours
 
-  // ✅ Select Thailand (THB) currency
-  await page.getByRole('group').filter({ hasText: 'I want to Pay' }).locator('svg').click();
-  await page.locator('div').filter({ hasText: /^Thailand-THB$/ }).first().click();
+test('Loop through each currency and crypto with summary check (auto-save)', async ({ page }) => {
+  const results: { currency: string; crypto: string; summary: string }[] = [];
+  const filePath = 'output.xlsx';
 
-  // ✅ Open Crypto dropdown
-  const dropdowns = page.locator('.chakra-input__right-addon');
-  const cryptoDropdown = dropdowns.nth(1);
-  await cryptoDropdown.click();
+  const saveToExcel = () => {
+    const worksheet = XLSX.utils.json_to_sheet(results);
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, 'Results');
+    XLSX.writeFile(workbook, filePath);
+    console.log(`💾 Auto-saved to ${filePath}`);
+  };
 
-  const cryptoList = page.locator('.chakra-modal__body div >> text=/\\(.*\\)/');
-  const total = await cryptoList.count();
-  console.log(`✅ Found ${total} cryptos`);
+  try {
+    await page.goto('https://qa-buy.transfi.com/?apiKey=2ybWAQ398nDwXPla');
+    await page.waitForTimeout(2000);
+    console.log('✅ Page loaded');
 
-  const results: { Coin: string; Status: string; Summary: string }[] = [];
-  const batchSize = 20;
+    const dropdowns = page.locator('.chakra-input__right-addon');
 
-  for (let start = 0; start < total; start += batchSize) {
-    const end = Math.min(start + batchSize, total);
-    console.log(`Processing coins ${start + 1} to ${end}`);
+    await dropdowns.first().click(); // "Pay With"
+    await page.getByText('All').click();
+    await page.waitForTimeout(1000);
+    const currencyOptions = page.locator('.css-a82vg0');
+    await currencyOptions.first().waitFor();
+    const currencyCount = await currencyOptions.count();
+    console.log(`💰 Total currencies: ${currencyCount}`);
+    await page.getByRole('button', { name: 'Close' }).click();
 
-    for (let i = start; i < end; i++) {
-      const coin = cryptoList.nth(i);
-      await coin.scrollIntoViewIfNeeded();
-      const coinText = await coin.innerText();
+    for (let i = 0; i < currencyCount; i++) {
+      await page.keyboard.press('Escape');
+      await dropdowns.first().click();
+      await page.waitForTimeout(1000);
+
+      const freshCurrencies = page.locator('.css-a82vg0');
+      const currencyOption = freshCurrencies.nth(i);
+      const currencyName = (await currencyOption.textContent())?.trim() || `Currency ${i}`;
 
       try {
-        await coin.click();
-        await page.waitForTimeout(1500);
-
-        const summaryLocator = page.locator('.chakra-accordion__button.css-jr6ypq');
-        await expect(summaryLocator).toBeVisible({ timeout: 5000 });
-
-        const summary = await summaryLocator.innerText();
-        const trimmedSummary = summary.trim();
-
-        results.push({
-          Coin: coinText,
-          Status: trimmedSummary ? 'Success' : 'Empty Summary',
-          Summary: trimmedSummary || '',
-        });
-
-        console.log(`✅ ${coinText} → Summary updated: ${trimmedSummary}`);
+        await currencyOption.click({ timeout: 2000 });
+        console.log(`💱 Selected currency: ${currencyName}`);
       } catch {
-        results.push({
-          Coin: coinText,
-          Status: 'Error',
-          Summary: '',
-        });
-        console.log(`❌ ${coinText} → Summary not visible or error`);
+        console.log(`❌ Failed to select currency: ${currencyName}`);
+        continue;
       }
 
-      if (i !== end - 1) {
+      await page.waitForTimeout(1000);
+
+      await dropdowns.nth(1).click(); // "Receive"
+      await page.waitForTimeout(1000);
+
+      const cryptoOptions = page.locator('.css-a82vg0');
+      await cryptoOptions.first().waitFor();
+      const cryptoCount = await cryptoOptions.count();
+      console.log(`🪙 Total cryptos for ${currencyName}: ${cryptoCount}`);
+
+      for (let j = 0; j < cryptoCount; j++) {
+        await page.keyboard.press('Escape');
+        await page.waitForTimeout(500);
+        await dropdowns.nth(1).click();
+        await page.waitForTimeout(800);
+
+        const freshCryptos = page.locator('.css-a82vg0');
+        const cryptoOption = freshCryptos.nth(j);
+        const cryptoName = (await cryptoOption.textContent())?.trim() || `Crypto ${j}`;
+
         try {
-          await page.waitForTimeout(500);
-          await expect(cryptoDropdown).toBeVisible({ timeout: 7000 });
-          await cryptoDropdown.click();
-        } catch (e) {
-          console.log(`⚠️ Failed to reopen dropdown on coin ${coinText}: ${e}`);
-          return;
+          await cryptoOption.click({ timeout: 2000 });
+          console.log(`✅ Selected crypto: ${cryptoName}`);
+          await page.waitForTimeout(1500);
+
+          const summaryBox = page.locator('.css-19vmn3i');
+          const isVisible = await summaryBox.isVisible();
+
+          if (isVisible) {
+            const summaryText = (await summaryBox.textContent())?.trim() || 'No summary text';
+            console.log(`📊 Summary for ${currencyName} + ${cryptoName}: ${summaryText}`);
+            results.push({ currency: currencyName, crypto: cryptoName, summary: summaryText });
+          } else {
+            console.log(`❌ No summary for ${currencyName} + ${cryptoName}`);
+            results.push({ currency: currencyName, crypto: cryptoName, summary: 'No summary' });
+          }
+        } catch {
+          console.log(`❌ Failed crypto: ${cryptoName}`);
+          results.push({ currency: currencyName, crypto: cryptoName, summary: 'Error' });
         }
+
+        // 📁 Auto-save after every crypto
+        saveToExcel();
+        await page.waitForTimeout(1000);
       }
+
+      console.log(`✅ Finished all cryptos for: ${currencyName}`);
     }
 
-    if (end < total) {
-      console.log('Reloading page to avoid memory issues...');
-      await page.reload();
-
-      // 🔁 Re-select "Thailand - THB" after reload
-      await page.getByRole('group').filter({ hasText: 'I want to Pay' }).locator('svg').click();
-      await page.locator('div').filter({ hasText: /^Thailand-THB$/ }).first().click();
-
-      await dropdowns.nth(1).click();
-    }
+    console.log('🎉 Finished all currencies and cryptos');
+  } finally {
+    // 📁 Always save results even if test is interrupted
+    saveToExcel();
+    console.log('✅ Final save complete');
   }
-
-  // ✅ Save to Excel
-  const worksheet = XLSX.utils.json_to_sheet(results);
-  const workbook = XLSX.utils.book_new();
-  XLSX.utils.book_append_sheet(workbook, worksheet, 'CryptoSummary');
-  XLSX.writeFile(workbook, 'crypto_summary.xlsx');
-
-  console.log('📁 Results saved to crypto_summary.xlsx');
-}, { timeout: 600000 });
+});
