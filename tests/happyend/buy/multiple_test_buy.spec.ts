@@ -98,10 +98,10 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
       console.log(`✅ Finished all cryptos for: ${currencyName}`);
     }
 
-    console.log('🎉 Finished all currencies and cryptos');
+    console.log('🎉 Finished all currencies and cryptos'); 
   } finally {
 
-    
+
     saveToExcel();
     console.log('✅ Final save complete');
   }
