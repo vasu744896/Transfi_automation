@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import * as XLSX from 'xlsx';
 import fs from 'fs';
 
-test.setTimeout(24 * 60 * 60 * 1000); // 24 hours
+test.setTimeout(24 * 60 * 60 * 1000); 
 
 test('Loop through each currency and crypto with summary check (auto-save)', async ({ page }) => {
   const results: { currency: string; crypto: string; summary: string }[] = [];
@@ -13,7 +13,7 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
     const workbook = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(workbook, worksheet, 'Results');
     XLSX.writeFile(workbook, filePath);
-    console.log(`💾 Auto-saved to ${filePath}`);
+    console.log(`Auto-saved to ${filePath}`);
   };
 
   try {
@@ -23,7 +23,7 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
 
     const dropdowns = page.locator('.chakra-input__right-addon');
 
-    await dropdowns.first().click(); // "Pay With"
+    await dropdowns.first().click(); 
     await page.getByText('All').click();
     await page.waitForTimeout(1000);
     const currencyOptions = page.locator('.css-a82vg0');
@@ -51,7 +51,7 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
 
       await page.waitForTimeout(1000);
 
-      await dropdowns.nth(1).click(); // "Receive"
+      await dropdowns.nth(1).click(); 
       await page.waitForTimeout(1000);
 
       const cryptoOptions = page.locator('.css-a82vg0');
@@ -90,7 +90,7 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
           results.push({ currency: currencyName, crypto: cryptoName, summary: 'Error' });
         }
 
-        // 📁 Auto-save after every crypto
+      
         saveToExcel();
         await page.waitForTimeout(1000);
       }
@@ -100,7 +100,8 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
 
     console.log('🎉 Finished all currencies and cryptos');
   } finally {
-    // 📁 Always save results even if test is interrupted
+
+    
     saveToExcel();
     console.log('✅ Final save complete');
   }

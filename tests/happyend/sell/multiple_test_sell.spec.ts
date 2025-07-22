@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import * as XLSX from 'xlsx';
 
-test.setTimeout(24 * 60 * 60 * 1000); // ⏱️ 24 hours
+test.setTimeout(24 * 60 * 60 * 1000); //  24 hours
 
 test('Loop through each currency and crypto on Sell tab and store results', async ({ page }) => {
   const results: { Currency: string; Coin: string; EstimateStatus: string; EstimateValue: string }[] = [];
@@ -12,7 +12,7 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
     const workbook = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(workbook, worksheet, 'Estimates');
     XLSX.writeFile(workbook, filePath);
-    console.log(`💾 Auto-saved to ${filePath}`);
+    console.log(` Auto-saved to ${filePath}`);
   };
 
   try {
@@ -20,16 +20,16 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
     await page.waitForTimeout(2000);
     console.log('✅ Page loaded');
 
-    // Select Sell Crypto tab
+
     await page.getByRole('tab', { name: /sell crypto/i }).click();
     await page.waitForTimeout(2000);
     console.log('✅ Sell Crypto tab selected');
 
     const dropdowns = page.locator('.chakra-input__right-addon');
-    const currencyDropdown = dropdowns.nth(1); // Currency selector
-    const cryptoDropdown = dropdowns.nth(0);   // Coin selector
+    const currencyDropdown = dropdowns.nth(1); 
+    const cryptoDropdown = dropdowns.nth(0);   
 
-    // Get total currencies
+
     await currencyDropdown.click();
     const currencyOptions = page.locator('.css-a82vg0');
     await currencyOptions.first().waitFor();
@@ -89,7 +89,7 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
             console.log(`⛔ - ( ${coinText} ) → Error clicking or loading`);
             results.push({ Currency: currencyName, Coin: coinText, EstimateStatus: 'Error', EstimateValue: '' });
 
-            // Recovery strategy
+            
             try {
               console.log('🔄 Reloading page to recover...');
               await page.reload();
@@ -97,7 +97,7 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
               await page.getByRole('tab', { name: /sell crypto/i }).click();
               await page.waitForTimeout(2000);
               await currencyDropdown.click();
-              await currencyList.nth(i).click(); // Reselect current currency
+              await currencyList.nth(i).click(); 
               await page.waitForTimeout(1000);
               await cryptoDropdown.click();
             } catch {
@@ -106,7 +106,7 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
             }
           }
 
-          // Save after each crypto
+
           saveToExcel();
 
           if (j !== total - 1) {
@@ -123,7 +123,7 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
 
     console.log('🎉 All currencies processed');
   } finally {
-    // Final guaranteed save
+    
     saveToExcel();
     console.log('✅ Final save complete');
   }
