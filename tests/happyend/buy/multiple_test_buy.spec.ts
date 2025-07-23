@@ -32,6 +32,7 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
     console.log(`💰 Total currencies: ${currencyCount}`);
     await page.getByRole('button', { name: 'Close' }).click();
 
+    
     for (let i = 0; i < currencyCount; i++) {
       await page.keyboard.press('Escape');
       await dropdowns.first().click();
