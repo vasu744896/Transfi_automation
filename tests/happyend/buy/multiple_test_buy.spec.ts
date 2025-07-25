@@ -1,19 +1,24 @@
 import { test, expect } from '@playwright/test';
-import * as XLSX from 'xlsx';
 import fs from 'fs';
 
-test.setTimeout(24 * 60 * 60 * 1000); 
+test.setTimeout(24 * 60 * 60 * 1000); // 24 hours timeout
 
-test('Loop through each currency and crypto with summary check (auto-save)', async ({ page }) => {
-  const results: { currency: string; crypto: string; summary: string }[] = [];
-  const filePath = 'buy_crypto.xlsx';
+test('Loop through currencies and cryptos, append to CSV', async ({ page }) => {
+  const csvFolder = 'csv-exports';
+  const csvPath = `${csvFolder}/buy_crypto.csv`;
 
-  const saveToExcel = () => {
-    const worksheet = XLSX.utils.json_to_sheet(results);
-    const workbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(workbook, worksheet, 'Results');
-    XLSX.writeFile(workbook, filePath);
-    console.log(`Auto-saved to ${filePath}`);
+  // Create folder if it doesn't exist
+  if (!fs.existsSync(csvFolder)) {
+    fs.mkdirSync(csvFolder, { recursive: true });
+  }
+
+  // Clear the CSV file once at the start (no headers)
+  fs.writeFileSync(csvPath, '');
+
+  // Append single row to CSV
+  const saveToCSV = (row: { currency: string; crypto: string; summary: string }) => {
+    const line = `${row.currency},${row.crypto},${row.summary}\n`;
+    fs.appendFileSync(csvPath, line);
   };
 
   try {
@@ -23,16 +28,16 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
 
     const dropdowns = page.locator('.chakra-input__right-addon');
 
-    await dropdowns.first().click(); 
+    await dropdowns.first().click();
     await page.getByText('All').click();
     await page.waitForTimeout(1000);
+
     const currencyOptions = page.locator('.css-a82vg0');
     await currencyOptions.first().waitFor();
     const currencyCount = await currencyOptions.count();
     console.log(`💰 Total currencies: ${currencyCount}`);
     await page.getByRole('button', { name: 'Close' }).click();
 
-    
     for (let i = 0; i < currencyCount; i++) {
       await page.keyboard.press('Escape');
       await dropdowns.first().click();
@@ -52,7 +57,7 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
 
       await page.waitForTimeout(1000);
 
-      await dropdowns.nth(1).click(); 
+      await dropdowns.nth(1).click();
       await page.waitForTimeout(1000);
 
       const cryptoOptions = page.locator('.css-a82vg0');
@@ -78,32 +83,28 @@ test('Loop through each currency and crypto with summary check (auto-save)', asy
           const summaryBox = page.locator('.css-19vmn3i');
           const isVisible = await summaryBox.isVisible();
 
+          let summaryText = 'No summary';
           if (isVisible) {
-            const summaryText = (await summaryBox.textContent())?.trim() || 'No summary text';
+            summaryText = (await summaryBox.textContent())?.trim() || 'No summary text';
             console.log(`📊 Summary for ${currencyName} + ${cryptoName}: ${summaryText}`);
-            results.push({ currency: currencyName, crypto: cryptoName, summary: summaryText });
           } else {
             console.log(`❌ No summary for ${currencyName} + ${cryptoName}`);
-            results.push({ currency: currencyName, crypto: cryptoName, summary: 'No summary' });
           }
+
+          saveToCSV({ currency: currencyName, crypto: cryptoName, summary: summaryText });
         } catch {
           console.log(`❌ Failed crypto: ${cryptoName}`);
-          results.push({ currency: currencyName, crypto: cryptoName, summary: 'Error' });
+          saveToCSV({ currency: currencyName, crypto: cryptoName, summary: 'Error' });
         }
 
-      
-        saveToExcel();
         await page.waitForTimeout(1000);
       }
 
       console.log(`✅ Finished all cryptos for: ${currencyName}`);
     }
 
-    console.log('🎉 Finished all currencies and cryptos'); 
+    console.log('🎉 Finished all currencies and cryptos');
   } finally {
-
-
-    saveToExcel();
-    console.log('✅ Final save complete');
+    console.log('✅ Final CSV save complete');
   }
 });

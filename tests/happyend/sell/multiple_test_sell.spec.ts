@@ -1,18 +1,29 @@
 import { test, expect } from '@playwright/test';
-import * as XLSX from 'xlsx';
+import * as fs from 'fs';
+import * as path from 'path';
 
-test.setTimeout(24 * 60 * 60 * 1000); //  24 hours
+test.setTimeout(24 * 60 * 60 * 1000); // 24 hours timeout
 
-test('Loop through each currency and crypto on Sell tab and store results', async ({ page }) => {
+test('Loop through currencies and cryptos, save CSV (overwrite, no header)', async ({ page }) => {
   const results: { Currency: string; Coin: string; EstimateStatus: string; EstimateValue: string }[] = [];
-  const filePath = 'sell.xlsx';
+  const dir = 'csv-exports';
+  const filePath = path.join(dir, 'sell.csv');
 
-  const saveToExcel = () => {
-    const worksheet = XLSX.utils.json_to_sheet(results);
-    const workbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(workbook, worksheet, 'Estimates');
-    XLSX.writeFile(workbook, filePath);
-    console.log(` Auto-saved to ${filePath}`);
+  // Ensure folder exists
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+
+  // Overwrite file at start (empty file, no header)
+  fs.writeFileSync(filePath, '');
+
+  const saveToCSV = () => {
+    const rows = results.map(r =>
+      `${r.Currency},${r.Coin},${r.EstimateStatus},${r.EstimateValue}`
+    );
+    fs.appendFileSync(filePath, rows.join('\n') + '\n');
+    results.length = 0; // Clear after saving
+    console.log(`💾 Data saved (overwrite mode) to ${filePath}`);
   };
 
   try {
@@ -20,15 +31,13 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
     await page.waitForTimeout(2000);
     console.log('✅ Page loaded');
 
-
     await page.getByRole('tab', { name: /sell crypto/i }).click();
     await page.waitForTimeout(2000);
     console.log('✅ Sell Crypto tab selected');
 
     const dropdowns = page.locator('.chakra-input__right-addon');
-    const currencyDropdown = dropdowns.nth(1); 
-    const cryptoDropdown = dropdowns.nth(0);   
-
+    const currencyDropdown = dropdowns.nth(1);
+    const cryptoDropdown = dropdowns.nth(0);
 
     await currencyDropdown.click();
     const currencyOptions = page.locator('.css-a82vg0');
@@ -38,6 +47,10 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
     console.log(`💰 Total currencies: ${currencyCount}`);
 
     for (let i = 0; i < currencyCount; i++) {
+      const dropdowns = page.locator('.chakra-input__right-addon');
+      const currencyDropdown = dropdowns.nth(1);
+      const cryptoDropdown = dropdowns.nth(0);
+
       await currencyDropdown.click();
       await page.waitForTimeout(1000);
 
@@ -50,6 +63,8 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
         console.log(`💱 Selected currency: ${currencyName}`);
       } catch {
         console.log(`❌ Failed to select currency: ${currencyName}`);
+        results.push({ Currency: currencyName, Coin: '-', EstimateStatus: 'CurrencySelectError', EstimateValue: '' });
+        saveToCSV();
         continue;
       }
 
@@ -63,7 +78,7 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
 
         for (let j = 0; j < total; j++) {
           const coin = cryptoList.nth(j);
-          const coinText = await coin.textContent() || `Coin ${j}`;
+          const coinText = (await coin.textContent())?.trim() || `Coin ${j}`;
 
           try {
             await coin.click();
@@ -74,40 +89,42 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
 
             if (isVisible) {
               const value = (await estimateBox.textContent())?.trim() || '';
-              if (value && value !== 'You Get (Estimate)') {
-                console.log(`✅ - ( ${coinText} ) → Estimate: ${value}`);
+              if (value && value !== 'You Get (Estimate)' && value.toLowerCase() !== 'loading...') {
+                console.log(`✅ - (${coinText}) → Estimate: ${value}`);
                 results.push({ Currency: currencyName, Coin: coinText, EstimateStatus: 'Success', EstimateValue: value });
               } else {
-                console.log(`❌ - ( ${coinText} ) → Empty estimate`);
+                console.log(`❌ - (${coinText}) → Empty estimate`);
                 results.push({ Currency: currencyName, Coin: coinText, EstimateStatus: 'Empty', EstimateValue: '' });
               }
             } else {
-              console.log(`🚫 - ( ${coinText} ) → Estimate not visible`);
+              console.log(`🚫 - (${coinText}) → Estimate not visible`);
               results.push({ Currency: currencyName, Coin: coinText, EstimateStatus: 'NotVisible', EstimateValue: '' });
             }
-          } catch (err) {
-            console.log(`⛔ - ( ${coinText} ) → Error clicking or loading`);
+          } catch {
+            console.log(`⛔ - (${coinText}) → Error clicking or loading`);
             results.push({ Currency: currencyName, Coin: coinText, EstimateStatus: 'Error', EstimateValue: '' });
 
-            
             try {
               console.log('🔄 Reloading page to recover...');
               await page.reload();
               await page.waitForTimeout(2000);
               await page.getByRole('tab', { name: /sell crypto/i }).click();
               await page.waitForTimeout(2000);
+              const dropdowns = page.locator('.chakra-input__right-addon');
+              const currencyDropdown = dropdowns.nth(1);
               await currencyDropdown.click();
-              await currencyList.nth(i).click(); 
+              const currencyList = page.locator('.css-a82vg0');
+              await currencyList.nth(i).click();
               await page.waitForTimeout(1000);
+              const cryptoDropdown = dropdowns.nth(0);
               await cryptoDropdown.click();
             } catch {
-              console.log('❌ Hard failure, exiting...');
+              console.log('❌ Hard failure, exiting crypto loop...');
               break;
             }
           }
 
-
-          saveToExcel();
+          saveToCSV();
 
           if (j !== total - 1) {
             await page.waitForTimeout(1000);
@@ -116,6 +133,8 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
         }
       } catch {
         console.log(`❌ Could not process cryptos for ${currencyName}`);
+        results.push({ Currency: currencyName, Coin: '-', EstimateStatus: 'CryptoListError', EstimateValue: '' });
+        saveToCSV();
       }
 
       console.log(`✅ Finished crypto loop for: ${currencyName}`);
@@ -123,8 +142,7 @@ test('Loop through each currency and crypto on Sell tab and store results', asyn
 
     console.log('🎉 All currencies processed');
   } finally {
-    
-    saveToExcel();
-    console.log('✅ Final save complete');
+    saveToCSV();
+    console.log('✅ Final CSV save complete');
   }
 });

@@ -9,13 +9,12 @@ const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
 export default defineConfig({
   testDir: './tests',
   retries: 0,
-  globalTimeout: 10 * 60 * 1000, // Entire test suite timeout
   use: {
-    headless: false,
+    headless: true,
     screenshot: 'on',
     video: 'on',
     trace: 'on',
-    outputDir: path.join('test-results', `${safeFileName}-${timestamp}`),
+    outputDir: path.join('test-results', `${safeFileName}-${timestamp}`), // logs only
   },
   reporter: [['html', { outputFolder: 'playwright-report' }]],
   globalTeardown: require.resolve('./global-teardown'),
