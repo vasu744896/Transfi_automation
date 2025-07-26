@@ -1,5 +1,4 @@
-// playwright.config.ts
-import { defineConfig } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';
 import path from 'path';
 
 const fileName = process.env.TEST_FILE_NAME || 'test';
@@ -10,12 +9,29 @@ export default defineConfig({
   testDir: './tests',
   retries: 0,
   use: {
-    headless: true,
+    headless: false,
     screenshot: 'on',
     video: 'on',
     trace: 'on',
-    outputDir: path.join('test-results', `${safeFileName}-${timestamp}`), // logs only
+    outputDir: path.join('test-results', `${safeFileName}-${timestamp}`),
   },
+  projects: [
+    /*{
+      name: 'Chromium - Real Chrome Profile',
+      use: {
+        browserName: 'chromium',
+        // launchPersistentContext is handled in test, not here
+      },
+    },*/
+    {
+      name: 'Firefox',
+      use: {
+        browserName: 'firefox',
+        // Optional: viewport, locale, permissions etc.
+        headless: false,
+      },
+    },
+  ],
   reporter: [['html', { outputFolder: 'playwright-report' }]],
   globalTeardown: require.resolve('./global-teardown'),
 });

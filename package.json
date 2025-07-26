@@ -11,12 +11,18 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.54.1",
+    "@types/imap": "^0.8.42",
     "@types/node": "^24.0.13",
     "playwright": "^1.54.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
+    "imap": "^0.8.19",
+    "imap-simple": "^5.1.0",
+    "imapflow": "^1.0.191",
+    "mailparser": "^3.7.4",
     "xlsx": "^0.18.5"
   }
 }

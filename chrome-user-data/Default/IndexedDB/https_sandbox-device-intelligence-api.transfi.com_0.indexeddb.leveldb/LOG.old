@@ -1,0 +1,14 @@
+2025/07/26-13:35:07.632 ec20 Reusing MANIFEST /home/vasanth/vasanth/Transif/chrome-user-data/Default/IndexedDB/https_sandbox-device-intelligence-api.transfi.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/26-13:35:07.632 ec20 Recovering log #10
+2025/07/26-13:35:07.633 ec20 Reusing old log /home/vasanth/vasanth/Transif/chrome-user-data/Default/IndexedDB/https_sandbox-device-intelligence-api.transfi.com_0.indexeddb.leveldb/000010.log 
+2025/07/26-13:35:07.633 ec20 Delete type=2 #8
+2025/07/26-13:35:16.493 ec20 Level-0 table #15: started
+2025/07/26-13:35:16.494 ec20 Level-0 table #15: 4760 bytes OK
+2025/07/26-13:35:16.495 ec20 Delete type=0 #10
+2025/07/26-13:35:16.496 ec1e Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 603 : 1
+2025/07/26-13:35:16.496 ec1e Compacting 1@0 + 1@1 files
+2025/07/26-13:35:16.498 ec1e Generated table #16@0: 101 keys, 1822 bytes
+2025/07/26-13:35:16.499 ec1e Compacted 1@0 + 1@1 files => 1822 bytes
+2025/07/26-13:35:16.500 ec1e compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/26-13:35:16.500 ec1e Delete type=2 #15
+2025/07/26-13:35:16.500 ec20 Manual compaction at level-0 from '\x00\x05\x01\x03\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 603 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
