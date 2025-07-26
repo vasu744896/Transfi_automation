@@ -1,0 +1,4982 @@
+
+Running 1 test using 1 worker
+
+[1A[2K[1/1] tests/happyend/sell/multiple_test_sell.spec.ts:7:5 › Loop through currencies and cryptos, save CSV (overwrite, no header)
+[1A[2Ktests/happyend/sell/multiple_test_sell.spec.ts:7:5 › Loop through currencies and cryptos, save CSV (overwrite, no header)
+✅ Page loaded
+
+[1A[2K✅ Sell Crypto tab selected
+
+[1A[2K💰 Total currencies: 39
+
+[1A[2K💱 Selected currency: Euro Members-EUR
+
+[1A[2K🪙 Total cryptos for Euro Members-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1359746063212963 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.057622068118086 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~982.0637349687554 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.70353021502435 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Euro Members-EUR
+
+[1A[2K💱 Selected currency: Andorra-EUR
+
+[1A[2K🪙 Total cryptos for Andorra-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.137650391029612 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.054077783459997 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.6757908087802 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.662305911199777 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Andorra-EUR
+
+[1A[2K💱 Selected currency: Austria-EUR
+
+[1A[2K🪙 Total cryptos for Austria-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.137734180265028 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.064853079134469 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.9481058238815 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.66892526079762 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Austria-EUR
+
+[1A[2K💱 Selected currency: Belgium-EUR
+
+[1A[2K🪙 Total cryptos for Belgium-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.139409964973345 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.062021002977415 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.6012183892601 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.65652445395608 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Belgium-EUR
+
+[1A[2K💱 Selected currency: Bulgaria-EUR
+
+[1A[2K🪙 Total cryptos for Bulgaria-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.148794359339916 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.06501227868176 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.93972690034 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.66859010385596 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Bulgaria-EUR
+
+[1A[2K💱 Selected currency: Croatia-EUR
+
+[1A[2K🪙 Total cryptos for Croatia-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.145023843746204 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.066344527524871 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~982.1483620965254 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.681242278403747 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Croatia-EUR
+
+[1A[2K💱 Selected currency: Cyprus-EUR
+
+[1A[2K🪙 Total cryptos for Cyprus-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.145861736100362 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.066964567866948 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~982.3092374285237 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.68358837699539 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Cyprus-EUR
+
+[1A[2K💱 Selected currency: Czechia-EUR
+
+[1A[2K🪙 Total cryptos for Czechia-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1416070020448674 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.067928783127433 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~982.3211088382828 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.660000972466285 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Czechia-EUR
+
+[1A[2K💱 Selected currency: Denmark-EUR
+
+[1A[2K🪙 Total cryptos for Denmark-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1416907810279913 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.063094735801152 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~982.1376328652406 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.65329865381633 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Denmark-EUR
+
+[1A[2K💱 Selected currency: Estonia-EUR
+
+[1A[2K🪙 Total cryptos for Estonia-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.140910552946788 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.059508211847239 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.8455053748746 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.64126374881043 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Estonia-EUR
+
+[1A[2K💱 Selected currency: Finland-EUR
+
+[1A[2K🪙 Total cryptos for Finland-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.132198374291437 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.057707136452143 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.453457335384 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.627357771341313 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Finland-EUR
+
+[1A[2K💱 Selected currency: France-EUR
+
+[1A[2K🪙 Total cryptos for France-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1240725922763493 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.056442195128145 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.9166467448925 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.628101785673863 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: France-EUR
+
+[1A[2K💱 Selected currency: Germany-EUR
+
+[1A[2K🪙 Total cryptos for Germany-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1259695768518623 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.051305436138854 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.0305724393409 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.646112097663853 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Germany-EUR
+
+[1A[2K💱 Selected currency: Greece-EUR
+
+[1A[2K🪙 Total cryptos for Greece-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.133257470540835 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.050727430777315 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.9610442581702 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.658091049359527 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Greece-EUR
+
+[1A[2K💱 Selected currency: Hungary-EUR
+
+[1A[2K🪙 Total cryptos for Hungary-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1337707179881935 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.052391400808501 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.3204835409551 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.66003456870256 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Hungary-EUR
+
+[1A[2K💱 Selected currency: Iceland-EUR
+
+[1A[2K🪙 Total cryptos for Iceland-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.129749365710785 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.042128574683865 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.9057815873475 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.63356066620963 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Iceland-EUR
+
+[1A[2K💱 Selected currency: Ireland-EUR
+
+[1A[2K🪙 Total cryptos for Ireland-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1290067737602176 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.041016605935383 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.7052943032248 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.626799303862924 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Ireland-EUR
+
+[1A[2K💱 Selected currency: Italy-EUR
+
+[1A[2K🪙 Total cryptos for Italy-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1290067737602176 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.039986225116003 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.5092706351479 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.614987621299314 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Italy-EUR
+
+[1A[2K💱 Selected currency: Latvia-EUR
+
+[1A[2K🪙 Total cryptos for Latvia-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1328574788992127 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.035734264604498 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.0494486177342 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.608710226543156 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Latvia-EUR
+
+[1A[2K💱 Selected currency: Liechtenstein-EUR
+
+[1A[2K🪙 Total cryptos for Liechtenstein-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1328574788992127 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.034016995310267 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~979.9447370754032 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.588605610415573 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Liechtenstein-EUR
+
+[1A[2K💱 Selected currency: Lithuania-EUR
+
+[1A[2K🪙 Total cryptos for Lithuania-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.136320943748398 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.034778181561088 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~979.9768352647767 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.593909530288755 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Lithuania-EUR
+
+[1A[2K💱 Selected currency: Luxembourg-EUR
+
+[1A[2K🪙 Total cryptos for Luxembourg-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.146122005259954 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.039276617485623 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.2901341541204 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.61317657428583 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Luxembourg-EUR
+
+[1A[2K💱 Selected currency: Malta-EUR
+
+[1A[2K🪙 Total cryptos for Malta-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1539125926152924 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.038556197579646 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.2247937440435 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.602035196670133 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Malta-EUR
+
+[1A[2K💱 Selected currency: Monaco-EUR
+
+[1A[2K🪙 Total cryptos for Monaco-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1534410052751647 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.035684217243091 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~979.8978480127168 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.58501272125638 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Monaco-EUR
+
+[1A[2K💱 Selected currency: Netherlands-EUR
+
+[1A[2K🪙 Total cryptos for Netherlands-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.155786531875004 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.032618278901872 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~979.5225637567427 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.554185800229913 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Netherlands-EUR
+
+[1A[2K💱 Selected currency: Norway-EUR
+
+[1A[2K🪙 Total cryptos for Norway-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.166985077618625 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.026541524786079 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~979.2330184222853 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.51505736575199 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Norway-EUR
+
+[1A[2K💱 Selected currency: Poland-EUR
+
+[1A[2K🪙 Total cryptos for Poland-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1606186843908497 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.023174037841914 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~978.8351188455496 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.515895049071435 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Poland-EUR
+
+[1A[2K💱 Selected currency: Portugal-EUR
+
+[1A[2K🪙 Total cryptos for Portugal-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1693402637723853 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.023831618116001 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~979.5082413038099 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.55286783022117 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Portugal-EUR
+
+[1A[2K💱 Selected currency: Romania-EUR
+
+[1A[2K🪙 Total cryptos for Romania-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1756233525604958 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.029612059801064 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~979.8399883918221 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.55990488966386 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Romania-EUR
+
+[1A[2K💱 Selected currency: San Marino-EUR
+
+[1A[2K🪙 Total cryptos for San Marino-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.163183920685171 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.032855454608576 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.0985116212408 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.591104017581603 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: San Marino-EUR
+
+[1A[2K💱 Selected currency: Slovakia-EUR
+
+[1A[2K🪙 Total cryptos for Slovakia-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1722311643066634 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.0327214213697395 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~979.966991505632 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.58113529544311 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Slovakia-EUR
+
+[1A[2K💱 Selected currency: Slovenia-EUR
+
+[1A[2K🪙 Total cryptos for Slovenia-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1732364135979405 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.027167419035434 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~979.8651536375091 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.57372537669849 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Slovenia-EUR
+
+[1A[2K💱 Selected currency: Spain-EUR
+
+[1A[2K🪙 Total cryptos for Spain-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.173142497848743 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.038102142631598 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.0695502189947 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.58729596940368 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Spain-EUR
+
+[1A[2K💱 Selected currency: Sweden-EUR
+
+[1A[2K🪙 Total cryptos for Sweden-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1733938051210613 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.034324156637747 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.1114347643811 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.62851036206387 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Sweden-EUR
+
+[1A[2K💱 Selected currency: Switzerland-EUR
+
+[1A[2K🪙 Total cryptos for Switzerland-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.164505719074215 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.036993128046971 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~980.5697123300151 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.65258168525451 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Switzerland-EUR
+
+[1A[2K💱 Selected currency: Thailand-THB
+
+[1A[2K🪙 Total cryptos for Thailand-THB: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~179.56177514918375 THB for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~251.882246513531 THB for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~37897.56274901437 THB for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~1201.9920033349338 THB for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Thailand-THB
+
+[1A[2K💱 Selected currency: United Kingdom-EUR
+
+[1A[2K🪙 Total cryptos for United Kingdom-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.1597234173060533 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.0487606308779185 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.4769352579084 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.703099638145222 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: United Kingdom-EUR
+
+[1A[2K💱 Selected currency: Vatican City-EUR
+
+[1A[2K🪙 Total cryptos for Vatican City-EUR: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~2.16625750137886 EUR for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~4.050578446575097 EUR for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~981.8689803022768 EUR for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~28.83763475379814 EUR for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Vatican City-EUR
+
+[1A[2K💱 Selected currency: Vietnam-VND
+
+[1A[2K🪙 Total cryptos for Vietnam-VND: 30
+
+[1A[2K🚫 - (- ( Cardano )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Algorand )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Avalanche )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin Cash )) → Estimate: You get ~140950.95159488506 VND for 0.01 BCH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Binance Smart Chain )) → Estimate: You get ~197684.1139461682 VND for 0.01 BNB
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Bitcoin )) → Estimate: You get ~29702375.486878317 VND for 0.01 BTC
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ - (- ( Ethereum )) → Estimate: You get ~946425.3941427064 VND for 0.01 ETH
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Litecoin )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Sonic )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Binance_Smart_Chain )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Base )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Celo )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Linea )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Polygon )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( CELO )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Arbitrum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Solana )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Tron )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Ethereum )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K🚫 - (- ( Radix )) → Estimate not visible
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Finished crypto loop for: Vietnam-VND
+
+[1A[2K🎉 All currencies processed
+
+[1A[2K💾 Data saved (overwrite mode) to csv-exports/sell.csv
+
+[1A[2K✅ Final CSV save complete
+
+[1A[2K  1) tests/happyend/sell/multiple_test_sell.spec.ts:7:5 › Loop through currencies and cryptos, save CSV (overwrite, no header) 
+
+    [31mTest timeout of 30000ms exceeded.[39m
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/happyend-sell-multiple_tes-b55a5-ve-CSV-overwrite-no-header-/test-finished-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/happyend-sell-multiple_tes-b55a5-ve-CSV-overwrite-no-header-/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+🎥 Converting: test-results/happyend-sell-multiple_tes-b55a5-ve-CSV-overwrite-no-header-/video.webm → test-results/happyend-sell-multiple_tes-b55a5-ve-CSV-overwrite-no-header-/video.mp4
+/bin/sh: line 1: ffmpeg: command not found
+❌ Failed to convert: test-results/happyend-sell-multiple_tes-b55a5-ve-CSV-overwrite-no-header-/video.webm
+ Error: Command failed: ffmpeg -y -i "test-results/happyend-sell-multiple_tes-b55a5-ve-CSV-overwrite-no-header-/video.webm" -c:v libx264 -preset fast -crf 23 "test-results/happyend-sell-multiple_tes-b55a5-ve-CSV-overwrite-no-header-/video.mp4"
+/bin/sh: line 1: ffmpeg: command not found
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at convertWebmToMp4 (/root/Transfi_automation/Transfi_automation/global-teardown.ts:32:13)
+    at globalTeardown (/root/Transfi_automation/Transfi_automation/global-teardown.ts:49:5)
+    at Object.teardown [as setup] (/root/Transfi_automation/Transfi_automation/node_modules/playwright/lib/runner/tasks.js:189:13)
+    at taskLoop (/root/Transfi_automation/Transfi_automation/node_modules/playwright/lib/runner/taskRunner.js:62:11)
+    at TaskRunner.runDeferCleanup (/root/Transfi_automation/Transfi_automation/node_modules/playwright/lib/runner/taskRunner.js:78:5)
+    at TaskRunner.run (/root/Transfi_automation/Transfi_automation/node_modules/playwright/lib/runner/taskRunner.js:43:28)
+    at runTasks (/root/Transfi_automation/Transfi_automation/node_modules/playwright/lib/runner/tasks.js:79:18)
+    at Runner.runAllTests (/root/Transfi_automation/Transfi_automation/node_modules/playwright/lib/runner/runner.js:71:20)
+    at runTests (/root/Transfi_automation/Transfi_automation/node_modules/playwright/lib/program.js:210:18)
+    at i.<anonymous> (/root/Transfi_automation/Transfi_automation/node_modules/playwright/lib/program.js:65:7) {
+  status: 127,
+  signal: null,
+  output: [
+    null,
+    <Buffer >,
+    <Buffer 2f 62 69 6e 2f 73 68 3a 20 6c 69 6e 65 20 31 3a 20 66 66 6d 70 65 67 3a 20 63 6f 6d 6d 61 6e 64 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+  ],
+  pid: 1784713,
+  stdout: <Buffer >,
+  stderr: <Buffer 2f 62 69 6e 2f 73 68 3a 20 6c 69 6e 65 20 31 3a 20 66 66 6d 70 65 67 3a 20 63 6f 6d 6d 61 6e 64 20 6e 6f 74 20 66 6f 75 6e 64 0a>
+}
+✅ All .webm videos converted to .mp4
+[1A[2K  Slow test file: tests/happyend/sell/multiple_test_sell.spec.ts (1.5h)
+  Consider running tests from slow files in parallel. See: https://playwright.dev/docs/test-parallel
+  1 failed
+    tests/happyend/sell/multiple_test_sell.spec.ts:7:5 › Loop through currencies and cryptos, save CSV (overwrite, no header) 
+
+  Serving HTML report at http://localhost:39425. Press Ctrl+C to quit.

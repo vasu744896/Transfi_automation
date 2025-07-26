@@ -12,8 +12,8 @@ test('Loop through currencies and cryptos, append to CSV', async ({ page }) => {
     fs.mkdirSync(csvFolder, { recursive: true });
   }
 
-  // Clear the CSV file once at the start (no headers)
-  fs.writeFileSync(csvPath, '');
+  // Overwrite file if exists, or create new file
+  fs.writeFileSync(csvPath, '', { flag: 'w' });
 
   // Append single row to CSV
   const saveToCSV = (row: { currency: string; crypto: string; summary: string }) => {
