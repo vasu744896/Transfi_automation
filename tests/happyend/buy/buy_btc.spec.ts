@@ -57,12 +57,20 @@ test('Buy BTC flow with email OTP', async ({ page }) => {
   }
 
   await page.getByRole('textbox', { name: 'Wallet address' }).click();
+
   await page.getByRole('textbox', { name: 'Wallet address' }).fill('3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy');
-  await page.waitForTimeout(2000); // Wait for any potential UI updates
+
+  await page.waitForTimeout(2000); 
+
   await page.getByRole('button', { name: 'Continue' }).click();
+
   console.log('wallet address added successfully');
+
   await page.locator('div').filter({ hasText: /^SEPA Bank Transfer$/ }).click();
+
   await page.getByRole('button', { name: 'Continue' }).click();
-  await page.waitForTimeout(5000); // Wait for any potential UI updates
+
+  await page.waitForTimeout(5000);
+  
   console.log('✅ Successfully completed Buy BTC flow');
 });
