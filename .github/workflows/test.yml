@@ -1,0 +1,49 @@
+name: 🔁 Playwright Automation Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:  # Allow manual run
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'  # or your Node version
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 📥 Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: 🧪 Run Tests (Buy & Sell)
+        run: |
+          chmod +x run_buy.sh run_sell.sh
+          ./run_buy.sh
+          ./run_sell.sh
+
+      - name: 📤 Upload Playwright HTML Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+
+      - name: 📤 Upload CSV Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: csv-exports
+          path: |
+            buy.csv
+            sell.csv
