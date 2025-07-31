@@ -22,3 +22,7 @@ Thumbs.db
 
 # VSCode settings
 .vscode/
+
+# Ignore old Playwright runners
+run_buy.sh
+run_sell.sh

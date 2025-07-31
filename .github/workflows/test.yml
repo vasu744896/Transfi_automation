@@ -5,7 +5,7 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  workflow_dispatch:  # Allow manual run
+  workflow_dispatch:
 
 jobs:
   run-tests:
@@ -18,7 +18,7 @@ jobs:
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'  # or your Node version
+          node-version: '18'
 
       - name: 📦 Install dependencies
         run: npm install
@@ -26,11 +26,20 @@ jobs:
       - name: 📥 Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: 🧪 Run Tests (Buy & Sell)
+      - name: 🔧 Install ffmpeg (for video conversion)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: 🧪 Run All Playwright Tests
+        run: npx playwright test
+
+      - name: 🎥 Convert .webm to .mp4 (Test Videos)
         run: |
-          chmod +x run_buy.sh run_sell.sh
-          ./run_buy.sh
-          ./run_sell.sh
+          echo "🎬 Converting videos..."
+          find . -name "*.webm" | while read file; do
+            mp4_file="${file%.webm}.mp4"
+            ffmpeg -i "$file" -c:v libx264 -preset fast -crf 23 "$mp4_file"
+            echo "✅ Converted: $file -> $mp4_file"
+          done
 
       - name: 📤 Upload Playwright HTML Report
         if: always()
@@ -47,3 +56,10 @@ jobs:
           path: |
             buy.csv
             sell.csv
+
+      - name: 📤 Upload MP4 Videos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-videos
+          path: "**/*.mp4"
