@@ -20,11 +20,13 @@ export default defineConfig({
       name: 'Firefox',
       use: {
         browserName: 'firefox',
-        headless: true, // ✅ updated
+        headless: true,
       },
     },
   ],
-  reporter: [['html', { outputFolder: 'playwright-report' }]],
-  //globalTeardown: require.resolve('./global-teardown'),
+  reporter: [
+    ['html', { outputFolder: 'playwright-report' }],
+    [path.resolve(__dirname, './report/excelReporter.js')], // ✅ Correct path
+  ],
+  timeout: 60000, // 1 min
 });
-  
