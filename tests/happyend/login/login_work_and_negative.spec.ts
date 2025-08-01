@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('test', async ({ page, context }) => {
-  await page.goto('https://qa-buy.transfi.com/');
+  await page.goto('https://qa-buy.transfi.com/?apiKey=2ybWAQ398nDwXPla');
 
   // First login with correct credentials
   await page.getByRole('navigation').locator('path').click();
