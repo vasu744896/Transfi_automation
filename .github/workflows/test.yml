@@ -1,65 +1,38 @@
-name: 🔁 Playwright Automation Tests
+name: Run Selected Playwright Tests
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
-  run-tests:
+  run-selected-tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: 🟢 Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 20
 
-      - name: 📦 Install dependencies
+      - name: Install Dependencies
         run: npm install
 
-      - name: 📥 Install Playwright Browsers
+      - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: 🔧 Install ffmpeg (for video conversion)
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-
-      - name: 🧪 Run All Playwright Tests
-        run: npx playwright test
-
-      - name: 🎥 Convert .webm to .mp4 (Test Videos)
+      - name: Run Selected Tests
         run: |
-          echo "🎬 Converting videos..."
-          find . -name "*.webm" | while read file; do
-            mp4_file="${file%.webm}.mp4"
-            ffmpeg -i "$file" -c:v libx264 -preset fast -crf 23 "$mp4_file"
-            echo "✅ Converted: $file -> $mp4_file"
-          done
+          chmod +x run_selected.sh
+          ./run_selected.sh
 
-      - name: 📤 Upload Playwright HTML Report
+      - name: Upload HTML Report (if available)
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report
           path: playwright-report/
-
-      - name: 📤 Upload CSV Results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: csv-exports
-          path: |
-            buy.csv
-            sell.csv
-
-      - name: 📤 Upload MP4 Videos
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-videos
-          path: "**/*.mp4"

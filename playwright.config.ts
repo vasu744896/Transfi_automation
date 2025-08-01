@@ -27,3 +27,4 @@ export default defineConfig({
   reporter: [['html', { outputFolder: 'playwright-report' }]],
   globalTeardown: require.resolve('./global-teardown'),
 });
+  
