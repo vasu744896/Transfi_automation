@@ -10,6 +10,7 @@ TEST_DIR="./tests"
 
 # List of SPECIFIC test files to run — UPDATE these paths as needed
 TEST_FILES=(
+  "$TEST_DIR/negative/Buy/verification_error.spec.ts"
   "$TEST_DIR/negative/Buy/invallid_wallet.spec.ts"
   "$TEST_DIR/negative/Buy/login_verification.spec.ts"
   "$TEST_DIR/happyend/sell/sell_crypto.spec.ts"
