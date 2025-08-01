@@ -5,7 +5,7 @@ import { getLatestOtpFromEmail } from '../../../utils/fetchOtp';
 
 dotenv.config();
 
-test.setTimeout(24 * 60 * 60 * 1000);
+test.setTimeout(5 * 60 * 1000); // 5 minutes
 
 test('Buy BTC flow with email OTP', async ({ page }) => {
   console.log('🚀 Starting Buy BTC flow test');
